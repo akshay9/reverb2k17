@@ -16,7 +16,7 @@
   /* Page Loader */
 
   $(window).on('load',function() {
-    $('.page-loader').delay(600).fadeOut('slow');
+    //$('.page-loader').delay(600).fadeOut('slow');
   });
 
 
