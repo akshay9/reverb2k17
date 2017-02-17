@@ -192,6 +192,10 @@ img.resp {
   -ms-animation: bounce 3s infinite linear;
 }
 
+.social-links a i {
+    transform: translate(0, 0);
+}
+
 .bg-dark-10,
 .bg-dark-50,
 .bg-dark-80,
