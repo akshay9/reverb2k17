@@ -3116,15 +3116,15 @@ span.icon-close {
   border-right: 1px solid #fff;
 }
 
-.sponsor-logo {
+.brands-logo {
   /*border: 1px solid;*/
   margin-right: 5px;
 }
 
-.sponsor-logo > img {
+.brands-logo > img {
   max-width: 100%;
 }
-.sponsor-logo > span {
+.brands-logo > span {
   display: inline-block; 
   height: 100%; 
   vertical-align: middle;
