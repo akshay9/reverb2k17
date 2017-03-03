@@ -8,9 +8,9 @@
     <!-- <link rel="shortcut icon" href="favicon.ico"> -->
     <title>Reverb '17</title>
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,100,700%7Dosis:400,500" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/et-line.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
@@ -39,7 +39,7 @@
           <ul class="clearlist scroll scroll-nav">
             <li class="active"><a href="#hero">Home</a></li>
             <!-- Item With Sub-->
-            
+
               <!-- End Sub-->
             </li>
             <!-- End Item With Sub-->
@@ -55,16 +55,16 @@
     <!--Start section hero-->
     <section id="hero" class="full-screen">
       <!--Parallax image-->
-    
 
 
-	<div id="particle-ground" data-background="imgs/bg-2.jpg" data-top="transform: translate3d(0px, 0px, 0px)" data-top-bottom="transform: translate3d(0px, -200px, 0px)" data-anchor-target="#hero" class="parallax parallax-hero full-screen bg-dark-50 slow-pulse"></div>
+
+	<div id="particle-ground" data-background="imgs/super_heros.jpg" data-top="transform: translate3d(0px, 0px, 0px)" data-top-bottom="transform: translate3d(0px, -200px, 0px)" data-anchor-target="#hero" class="parallax parallax-hero full-screen bg-dark-50 slow-pulse"></div>
       <div class="hero-content">
         <div class="hero-content-inner">
-          <img src="imgs/reverb_logo.png" style="height:100px" data-wow-duration="2s" class="hs-line-1 wow fadeIn"></img>
+          <img src="imgs/reverb_logo.png" style="max-height: 100px; max-width: 100%;" data-wow-duration="2s" class="hs-line-1 wow fadeIn"></img>
           <div data-wow-delay="0.5s" data-wow-duration="3s" class="hs-line-2 wow fadeInDown">A Million Verbs, one Reverb.<br>10th - 11th March 2017</div>
           <div data-effect="fadeInUp" class="mt-30 animate-e"><a href="#" class="scroll btn btn-coffee btn-border-w btn-round btn-medium"><span>Click Here To Register</span></a><span>&nbsp; &nbsp;</span></div>
-	  
+
 	   </div>
       </div><a href="#page" data-start="display: block" data-100-start="display: none" class="text-center scroll-down scroll">
       	<i class="text-muted fa fa-4x fa-angle-down" aria-hidden="true"></i>
@@ -85,13 +85,15 @@
           <div class="row mt-60 mt-xs-30">
             <div class="col-md-8 col-md-offset-2 text-center">
               <blockquote data-wow-delay="0.1s" data-wow-duration="1s" class="about-quote wow fadeInUp">
-                <p>Reverb is the annual cultural extravaganza organized by Symbiosis Institute of Technology. For more information visit www.reverbthefest.in</p>
+                <p>'Reverb' is the annual cultural extravaganza organized by Symbiosis Institute of Technology.
+Reverb, short for Reverberation, is the undue prolongation of sound in a particular space after the original sound is removed.  This is particularly true when the stage is set, the sound is loud, and the energy is high. This exquisite extravaganza drifts  its brilliancy across the city of Pune, and the country. Just like Reverberation of sound, these three days echo around this alma mater for years to come.  And above all, one thing become very clear: SIT is the place to be, Reverb is the fest to see.
+</p>
                 <footer class="about-quote-author">Team Reverb</footer>
               </blockquote>
             </div>
           </div>
         </div>
-        <div id="facts" class="small-section bg-light mt-80 mt-xs-80">
+        <div id="facts" style="background-position-y: -10px;"  data-background="imgs/bg-2.jpg" class="small-section mt-80 mt-xs-80 parallax parallax-fixed bg-dark-50">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -127,7 +129,7 @@
           </div>
         </div>
       </section>
-    
+
 
       <section id="events" class="pb-60">
         <div class="container">
@@ -146,12 +148,11 @@
           <li class="active"><a href="#" data-filter="*">All</a></li>
           <li><a href="#" data-filter=".day1">Day 1</a></li>
            <li><a href="#" data-filter=".day2">Day 2</a></li>
-            <li><a href="#" data-filter=".day3">Day 3</a></li>
         </ul>
         <div class="container">
           <div data-wow-delay="0.1s" data-wow-duration="2s" class="work-container mt-40 mt-xs-20 wow fadeIn">
             <div class="row">
-              <div class="col-md-3 col-sm-4 col-xs-12 work-item day3">
+              <div class="col-md-3 col-sm-4 col-xs-12 work-item day1">
                 <div class="figure effect-hover"><img src="imgs/events/dj.jpg" alt="img01">
                   <div class="figcaption">
                     <h5 class="alt-font">DJ</h5>
@@ -167,7 +168,7 @@
                   </div><a href="">Register Now!</a>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-4 col-xs-12 work-item day1 day3 day2">
+              <div class="col-md-3 col-sm-4 col-xs-12 work-item day1 day2">
                 <div class="figure effect-hover"><img src="imgs/events/tabla.jpg" alt="img01">
                   <div class="figcaption">
                     <h5 class="alt-font">Tabla</h5>
@@ -183,7 +184,7 @@
                   </div><a href="">Register Now!</a>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-4 col-xs-12 work-item day1 day3">
+              <div class="col-md-3 col-sm-4 col-xs-12 work-item day1">
                 <div class="figure effect-hover"><img src="imgs/events/beatbox.jpg" alt="img01">
                   <div class="figcaption">
                     <h5 class="alt-font">BeatBoxing</h5>
@@ -191,11 +192,11 @@
                   </div><a href="">Register Now!</a>
                 </div>
               </div>
-             
+
             </div>
           </div>
         </div>
-     
+
 
 
 	 <!-- Call to action-->
@@ -214,7 +215,7 @@
         </div>
       </section>
       <!--Portfolio End-->
-      <section id="testimonials" class="bg-dark-80 pt-60">
+      <section id="testimonials" style="background-position-y: -25px;" data-background="imgs/bat_superman.jpg" class="pt-60 pb-20 parallax parallax-fixed bg-dark-40">
 
         <!--Item start-->
             <div class="container">
@@ -224,8 +225,8 @@
                   <h3 class="alt-font">What people say?</h3>
                   <div class="fullwidth-testimotal-slider mb-30 pt-30 pb-100">
 	                  <blockquote class="testimonial">
-	                    <p>Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. Simply the best Fest. </p>
-	                    <footer class="testimonial-author">The Best Reviewer</footer>
+	                    <p>Comic-Con is a special kind of crazy.</p>
+	                    <footer class="testimonial-author">Denis O'Hare</footer>
 	                  </blockquote>
 
 	                  <blockquote class="testimonial">
@@ -241,10 +242,9 @@
                 </div>
               </div>
             </div>
-        
+
       </section>
-      <hr>
-     
+
       <section id="sponsors" class="pb-40">
         <div class="container">
           <div class="row">
@@ -256,40 +256,60 @@
             <div class="sponsors-carousel">
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/google.png">
-              </div>
-			  <div class="brands-logo">
-			  	<span></span>
-              	<img src="imgs/sponsors/facebook.png">
+              	<img src="imgs/sponsors/9xm.png">
               </div>
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/yahoo.jpg">
+              	<img src="imgs/sponsors/9xo.jpg">
               </div>
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/microsoft.png">
+              	<img src="imgs/sponsors/d3.png">
               </div>
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/google.png">
-              </div>
-              <div class="brands-logo">
-			  	<span></span>	
-              	<img src="imgs/sponsors/facebook.png">
+              	<img src="imgs/sponsors/dna.png">
               </div>
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/yahoo.jpg">
+              	<img src="imgs/sponsors/mtv.png">
               </div>
               <div class="brands-logo">
               	<span></span>
-              	<img src="imgs/sponsors/microsoft.png">
+              	<img src="imgs/sponsors/nh7.png">
               </div>
-              
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/punediary.png">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/radiocity.jpg">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/redbull.png">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/redfm.png">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/sakal.jpg">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/toi.png">
+              </div>
+              <div class="brands-logo">
+              	<span></span>
+              	<img src="imgs/sponsors/vh1.png">
+              </div>
+
 
 	        </div>
-                
+
           </div>
           <div class="row mt-40">
             <div class="col-md-12 text-center"><a href="#" class="btn btn-coffee btn-border">Sponsor Us</a></div>
@@ -325,12 +345,12 @@
                 <p>Participation<br>Person 1<br>+91 9870138832<br>Person 2<br>+91 9870138832<br>abc@abc.com</p>
               </div>
               <div class="col-sm-4 contact-item"><span class="icon-phone"></span>
-                <p>Sponsorship & Association<br>Person 2<br>+91 9870138832<br>abc@abc.com</p>
+                <p>Sponsorship & Association<br>Samarth Mathur<br>+91 7743875736<br>samarth.mathur@sitpune.edu.in</p>
               </div>
                <div class="col-sm-4 contact-item"><span class="icon-phone"></span>
-                <p>General Queries<br>Person 3<br> +91 9870138832<br>abc@abc.com</p>
+                <p>General Queries<br>Shivreet Majithia<br>+91 7028461613<br>shivreet.majithia<br>@sitpune.edu.in</p>
               </div>
-          </div>		
+          </div>
         </div>
       </section>
       <!--Contacts section end -->
@@ -372,7 +392,7 @@
     <script src="js/main.js"></script>
     <script src="js/contact-form.js"></script>
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
-    
+
     <!--Delete after config-->
     <script src="js/style.changer.js"></script>
     <!-- <script src="js/jquery.particleground.min.js"></script> -->

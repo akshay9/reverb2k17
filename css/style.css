@@ -32,7 +32,7 @@ a:hover,
 a:focus {
   color: #111;
   outline: none;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 ul {
   list-style-type: none;
@@ -204,6 +204,7 @@ img.resp {
   color: #fff;
 }
 .bg-dark-10 *,
+.bg-dark-40 *,
 .bg-dark-50 *,
 .bg-dark-80 *,
 .bg-dark-90 *,
@@ -2174,6 +2175,7 @@ span.hs {
 }
 .filter li a:hover {
   border-bottom: 1px solid #00b2ca;
+  text-decoration: none !important;
 }
 .filter li.active a {
   border-bottom: 1px solid #00b2ca;
@@ -3141,8 +3143,8 @@ span.icon-close {
   max-width: 100%;
 }
 .brands-logo > span {
-  display: inline-block; 
-  height: 100%; 
+  display: inline-block;
+  height: 100%;
   vertical-align: middle;
 }
 /* ==============================
